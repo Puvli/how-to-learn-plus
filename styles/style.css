@@ -1,3 +1,33 @@
+@font-face {
+  src:
+    url(/Inter/Inter-Bold.woff) format('woff'),
+    url(Inter/Inter-Bold.woff2) format('woff2');
+
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+@font-face {
+  src:
+    url(/Inter/Inter-Regular.woff) format('woff'),
+    url(Inter/Inter-Regular.woff2) format('woff2');
+
+  font-family: 'Inter';
+  font-weight: normal;
+}
+
+/* @font-face {
+  src:
+    url(/Inter/Inter-SemiBold.woff) format('woff'),
+    url(Inter/Inter-SemiBold.woff2) format('woff2');
+
+  font-family: 'Inter';
+  font-weight: semibold;
+} */
+
+
+
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,21 +36,26 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
+  
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(16, 15, 15);
+
   /* выше установили ограничения для секции */
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+/* .header__square-pic {
   height: 568px;
   width: 568px;
-}
+} */
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -28,4 +63,75 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo {
+  border: 1px solid red;
+
+}
+
+.logo_place_header {
+  position: absolute;
+  left: 64px;
+  top: 30px;
+  width: 228px;
+  height: 32px;
+  border: 1px solid red;
+  /* background-image: url(/images/logo_place_header.svg); */
+}
+
+.header__title {
+  border: 1px solid red;
+  width: 730px;
+  margin-left: 64px;
+  height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  border: 1px solid red;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  /* font-family: 'Inter'; */
+
+}
+
+/* .header__link {
+  border: 1px solid red;
+
+} */
+
+.header__main-illustration {
+  border: 1px solid red;
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  /* bottom: 0; */
+  /* top: 64px; */
+  right: 0;
+  /* height: 608px;
+  width: 765px; */
+  /* margin-bottom: 0; */
+  z-index: -1;
+  margin: 0;
+
+}
+
+.header__square-pic {
+  border: 1px solid rgb(149, 255, 0);
+  position: absolute;
+  top: 64px;
+  right: 0;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  z-index: -2;
+  /* margin: 0; */
+
 }
