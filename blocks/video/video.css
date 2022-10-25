@@ -3,21 +3,3 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-.video__iframes {
-  margin: 50px 0 0 0;
-  /* border: 1px solid red; */
-  display: flex;
-  overflow: hidden;
-}
-
-.video__iframe {
-  /* border: 1px solid red; */
-  width: 515px;
-  height: 316px;
-  margin: 0 20px -20px auto;
-}
-
-.video__iframe:last-of-type {
-  margin: 0 auto 0 0;
-}
