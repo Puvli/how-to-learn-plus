@@ -3,6 +3,8 @@
   height: 38px;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .resources__link:hover {

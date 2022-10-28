@@ -6,7 +6,7 @@
   background-position: left 0 bottom 0;
   background-size: 867px 637px;
   background-repeat: no-repeat;
-  height: 890px;
+  min-height: 890px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -4,10 +4,6 @@
   margin: 0 0 0 0;
 }
 
-.footer__column-link:last-of-type {
-  margin-bottom: 16px;
-}
-
 .footer__column-link:hover {
   text-decoration: underline;
 }

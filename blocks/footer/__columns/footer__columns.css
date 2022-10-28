@@ -1,6 +1,7 @@
 .footer__columns {
   width: 90%;
-  margin: 60px auto 40px auto;
+  margin: 0 auto 40px auto;
   display: flex;
   justify-content: space-between;
+  display: flex;
 }
