@@ -6,4 +6,7 @@
   font-weight: normal;
   list-style-type: none;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
